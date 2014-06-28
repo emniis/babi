@@ -3,11 +3,13 @@
  * @author aurelle meless
  */
 class config {
-    public static $template='akwaba';
-    public static $dbhost='localhost';
-    public static $db='babi';
-    public static $dbport='3306';
-    public static $root='3306';
-    public static $rootUrl='http://localhost/babi';
+   
+    public static $params=array('dbhost'=>'localhost',
+                    'dbname'=>'babi',
+                    'dbport'=>'3306',
+                    'dbuser'=>'root',
+                    'dbpassword'=>'',
+                    'template'=>'akwaba',
+                    'rootUrl'=>'http://localhost/babi/trunk');
     
 }
