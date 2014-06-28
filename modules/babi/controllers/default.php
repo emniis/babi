@@ -12,7 +12,7 @@ class defaultController {
     }
     
     function test() {
-        echo 'bon test pour mon module xxx';
+        echo 'bon test pour mon module akwaba';
     }
 
 }
