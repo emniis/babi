@@ -2,7 +2,7 @@
 /* 
  * page de style par defaut du template
  */
-$root=  config::$params['rootUrl'].'/templates/akwaba/';
+$root= URL.'/templates/akwaba/';
 
 ?>
 <!DOCTYPE HTML>
@@ -39,7 +39,6 @@ $root=  config::$params['rootUrl'].'/templates/akwaba/';
           <div class="col-sm-8 blog-main">
 
             <div class="blog-post">
-                MAIN CONTENT
                 <?php app::main(); ?>
             </div><!-- /.blog-post -->
 

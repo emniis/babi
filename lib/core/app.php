@@ -15,7 +15,9 @@ class app {
        
        return $param;
     }
-    
+    public static function getDefaultTpl() {
+       return TEMPLATE;
+    }
     public static function main() {
        $module=self::getParam('module');
        $controller=  self::getParam('controller');
@@ -32,7 +34,7 @@ class app {
     }
     
     public static function init() {
-       require_once 'templates/'.config::$params['template'].'/index.php';
+       require_once 'templates/'.self::getDefaultTpl().'/index.php';
     }
     
 }
