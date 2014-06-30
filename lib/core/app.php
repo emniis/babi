@@ -2,6 +2,9 @@
 /*
  * @author  : Aurelle Meless
  */
+require_once 'config.php';// configuration
+require_once 'lib/core/dbo.php';//base de donnees
+
 class app {
 
     function __construct() {
@@ -34,8 +37,11 @@ class app {
     }
     
     public static function init() {
+       self::loadCore();
        require_once 'templates/'.self::getDefaultTpl().'/index.php';
     }
-    
+    public static function loadCore() {
+        require_once 'lib/core/controller.php';//application
+    }
 }
 

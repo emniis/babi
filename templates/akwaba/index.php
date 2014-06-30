@@ -82,9 +82,7 @@ $root= URL.'/templates/akwaba/';
 
       <div class="blog-footer">
         <p>designed with <a href="http://getbootstrap.com">Bootstrap</a> by <a href="#">Ivoire Maker</a>.</p>
-        <p>
-          <a href="#">Back to top</a>
-        </p>
+        <p><a href="#">Back to top</a></p>
       </div>
     </body>
 </html>
