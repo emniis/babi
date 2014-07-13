@@ -18,11 +18,12 @@ $root= URL.'/templates/akwaba/';
         <div class="blog-masthead">
         <div class="container">
           <nav class="blog-nav">
-            <a class="blog-nav-item active" href="#">Home</a>
+<!--            <a class="blog-nav-item active" href="#">Home</a>
             <a class="blog-nav-item" href="#">New features</a>
             <a class="blog-nav-item" href="#">Press</a>
             <a class="blog-nav-item" href="#">New hires</a>
-            <a class="blog-nav-item" href="#">About</a>
+            <a class="blog-nav-item" href="#">About</a>-->
+            <?php app::loadGadget('bloc-menu',array('menu')); ?>
           </nav>
         </div>
       </div>
@@ -46,8 +47,7 @@ $root= URL.'/templates/akwaba/';
 
           <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
             <div class="sidebar-module sidebar-module-inset">
-              <h4>About</h4>
-              <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+                <?php app::loadGadget('bloc1',array('date')); ?>
             </div>
             <div class="sidebar-module">
               <h4>Archives</h4>

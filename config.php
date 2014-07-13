@@ -13,4 +13,6 @@ define("DB_PORT", "3306");
 define("ROOT", __DIR__);
 define("URL", "http://localhost/babi");
 define("TEMPLATE", "akwaba");
+define("ADMIN_TEMPLATE", "man");
+define("ADMIN_PATH", "admin");
 
